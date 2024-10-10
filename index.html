@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>4 Seasons</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!--Bootstrap ================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--Link Swiper's CSS ================================================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Style Sheet ================================================== -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="search-popup">
+        <div class="search-popup-container">
+
+            <form role="search" method="get" class="form-group" action="">
+                <input type="search" id="search-form" class="form-control border-0 border-bottom"
+                    placeholder="Type and press enter" value="" name="s" />
+                <button type="submit" class="search-submit border-0 position-absolute bg-white"
+                    style="top: 15px;right: 15px;"><svg class="search" width="24" height="24">
+                        <use xlink:href="#search"></use>
+                    </svg></button>
+            </form>
+
+            <h5 class="cat-list-title">Категории</h5>
+
+            <ul class="cat-list">
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Обувь">Обувь</a>
+                </li>
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Пуховики, куртки">Пуховики, куртки</a>
+                </li>
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Свитера, кофты">Свитера, кофты</a>
+                </li>
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Нижнее белье">Нижнее белье</a>
+                </li>
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Футболки, рубашки, поло">Футболки, рубашки, поло</a>
+                </li>
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Джинсы, брюки, штаны">Джинсы, брюки, штаны</a>
+                </li>
+                <li class="cat-list-item mb-3">
+                    <a href="https://vk.link/seasonline4" title="Прочее">Прочее</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <header class="position-absolute top-0 start-0 w-100 z-1">
+        <nav class="navbar navbar-expand-lg navbar-light pt-4">
+            <div class="container-fluid align-items-center align-items-lg-start mx-lg-5">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="d-flex d-lg-none list-unstyled mt-3">
+                        <div class="search me-3 ">
+                            <li class="search-box"><a class="nav-link nav-link-ltr search-button" href="#"><svg
+                                        class="search" width="15" height="15">
+                                        <use xlink:href="#search"></use>
+                                    </svg> &nbsp; Поиск</a></li>
+                        </div>
+                    </ul>
+                    <ul class="navbar-nav d-lg-block ms-auto me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-ltr text-white" href="https://vk.link/seasonline4">О нас</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-ltr text-white" href="https://vk.link/seasonline4" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Магазин
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-ltr text-white" href="https://vk.com/seasonline4" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Другие страницы
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pages">
+                                <li><a href="https://vk.com/seasonline4" class="dropdown-item">О нас</a></li>
+                                <li><a href="https://vk.link/seasonline4" class="dropdown-item">Магазин</a></li>
+                                <li><a href="https://t.me/seasonline4" class="dropdown-item">Контакты</a></li>
+                                <li><a href="https://t.me/+VL1Xs9LY0FkxZTBi" class="dropdown-item">Вопросы и ответы</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-ltr text-white" href="https://nuum.ru/channel/seasonline4" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Статьи
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://nuum.ru/channel/seasonline4">Блог</a></li>
+                                <li><a class="dropdown-item" href="https://nuum.ru/channel/seasonline4">Посты</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <ul class="navbar-nav d-lg-block d-none list-unstyled">
+                    <div class="search">
+                        <li class="search-box"><a class="nav-link nav-link-ltr search-button" href="#"><svg
+                                    class="search" width="15" height="15">
+                                    <use xlink:href="#search"></use>
+                                </svg> &nbsp; Поиск</a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="billboard">
+        <div class="position-relative"
+            style="background: url('images/header-img.png'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh;">
+            <div class="container">
+                <div class="offset-3 position-absolute top-50 start-0 translate-middle-y">
+                    <div class="py-5">
+                        <h2 class="display-1 text-white text-center text-md-start">Классика<br>в веках.</h2>
+                    </div>
+                    <div>
+                        <a href="https://vk.link/seasonline4" class="btn btn-light">Новая коллекция </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="collection">
+        <div class="container-fluid">
+            <div class="row mt-4">
+                <div class="col-lg-6 ps-lg-0">
+                    <div class="position-relative img-fluid"
+                        style=" background: url(images/women-section.png);background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh;">
+                        <div class="text position-absolute text-center m-auto w-100 top-50">
+                            <h3 class="display-2 text-white mb-3">Женщины</h3>
+                            <div>
+                                <a href="https://vk.link/seasonline4" class="btn btn-light">Каталог </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0">
+                    <div class="position-relative img-fluid"
+                        style="background: url(images/men-section.png);background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh;">
+                        <div class="text position-absolute text-center m-auto w-100 top-50">
+                            <h3 class="display-2 text-white mb-3">Мужчины</h3>
+                            <div>
+                                <a href="https://vk.link/seasonline4" class="btn btn-light">Каталог </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="new-arrivals" class="position-relative padding-medium">
+        <div class="container">
+            <div class="d-block d-md-flex justify-content-between align-items-center mb-4">
+                <h3 class="display-5 fw-normal secondary-font">Новые поступления</h3>
+                <div><a href="https://vk.link/seasonline4" class="btn1">Просмотреть</a></div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product-item position-relative">
+                            <img src="images/newarrival-items1.jpg" alt="new1" class="img-fluid">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5><a href="https://vk.link/seasonline4" class="item-name  secondary-font">Nike Storm-Fit Windrunner "Black"</a></h5>
+                                <h5 class="money fw-bold secondary-font">₽16.990</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item position-relative">
+                            <img src="images/newarrival-items2.jpg" alt="new1" class="img-fluid">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5><a href="https://vk.link/seasonline4" class="item-name  secondary-font">Moncler</a></h5>
+                                <h5 class="money fw-bold secondary-font">₽7.990</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item position-relative">
+                            <img src="images/newarrival-items3.jpg" alt="new1" class="img-fluid">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5><a href="https://vk.link/seasonline4" class="item-name  secondary-font">Nike Air Force 1 High Boot "Triple Black"</a></h5>
+                                <h5 class="money fw-bold secondary-font">₽16.990</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item position-relative">
+                            <img src="images/newarrival-items1.jpg" alt="new1" class="img-fluid">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5><a href="https://vk.link/seasonline4" class="item-name  secondary-font">Nike Storm-Fit Windrunner "Black"</a></h5>
+                                <h5 class="money fw-bold secondary-font">₽16.990</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item position-relative">
+                            <img src="images/newarrival-items2.jpg" alt="new1" class="img-fluid">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5><a href="https://vk.link/seasonline4" class="item-name  secondary-font">Moncler</a></h5>
+                                <h5 class="money fw-bold secondary-font">₽7.990</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-item position-relative">
+                            <img src="images/newarrival-items3.jpg" alt="new1" class="img-fluid">
+                            <div class="d-flex justify-content-between mt-2">
+                                <h5><a href="https://vk.link/seasonline4" class="item-name  secondary-font">Nike Air Force 1 High Boot "Triple Black"</a></h5>
+                                <h5 class="money fw-bold secondary-font">₽16.990</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination new-arrival-pagination position-relative d-block d-lg-none mt-5"></div>
+            </div>
+            <div
+                class="position-absolute top-50 end-0 translate-middle-y me-5 main-slider-button-next d-lg-block d-none">
+                <svg class="arrow" width="80" height="80">
+                    <use xlink:href="#arrow-right"></use>
+                </svg>
+            </div>
+            <div
+                class="position-absolute top-50 start-0 translate-middle-y ms-5 main-slider-button-prev d-lg-block d-none">
+                <svg class="arrow" width="80" height="80">
+                    <use xlink:href="#arrow-left"></use>
+                </svg>
+            </div>
+            <!-- <div class="swiper-pagination d-block d-md-none mt-5"></div> -->
+        </div>
+    </section>
+
+    <section id="review">
+        <h3 class="display-1 mb-5 text-muted opacity-25 ">Отзывы покупателей</h3>
+        <div class="container">
+            <div class="swiper testimonial-Swiper text-center">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="review fw-light fs-5 lh-base">"Я был приятно удивлён качеством одежды, купленной в этом онлайн магазине. 
+						Все вещи пришли в указанные сроки, и размеры полностью совпадают с описаниями. 
+						Особо хочу отметить стильные куртки — они идеально сидят и смотрятся очень модно. 
+						Рекомендую всем, кто ищет что-то особенное для своего гардероба!"</p>
+                        <span class="fw-bold d-block mt-3">Алексей</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="review fw-light fs-5 lh-base">"Примеряя свои новые кеды, я просто сияла от счастья!
+						Удобный интерфейс сайта облегчает поиск нужной вещи, а разнообразие моделей поражает. 
+						Моя последняя покупка — шикарные кожаные кеды, которые получило массу комплиментов на празднике. 
+						Быстрая доставка и приятные акции делают шопинг ещё более увлекательным."</p>
+                        <span class="fw-bold d-block mt-3">Мария</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="review fw-light fs-5 lh-base">"Каждый раз, когда я заказываю на этом сайте, я остаюсь доволен. 
+						Например, последняя партия кроссовок оказалась не только стильной, но и невероятно комфортной. 
+						Приятно получать скидки и специальные предложения. В целом, 4 Seasons стал моим любимым местом для покупок одежды. 
+						Обязательно буду заказывать ещё!"</p>
+                        <span class="fw-bold d-block mt-3">Дмитрий</span>
+                    </div>
+                </div>
+                <div class="swiper-pagination testimonial-pagination position-relative mt-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-modish" class="padding-medium">
+        <div class="imageblock position-relative">
+            <img class="img-fluid" src="images/video.jpg" alt="img">
+            <a type="button" data-bs-toggle="modal" data-src="https://nuum.ru/clips/3586514-krossovki-michael-kors-pokupat-zdes-https-t-me-seasonline4"
+                data-bs-target="#myModal" class="play-btn position-absolute top-50 start-50 translate-middle">
+                <div class="play bg-white p-4 p-md-5 rounded-circle">
+                    <svg class="play-icon text-black" width="40" height="40">
+                        <use xlink:href="#play"></use>
+                    </svg>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="articles">
+        <div class="container">
+            <div class="d-block d-md-flex justify-content-between align-items-center mb-4">
+                <h3 class="display-5 fw-normal secondary-font">Новые статьи</h3>
+                <div><a href="https://nuum.ru/channel/seasonline4" class="btn1">читать</a></div>
+            </div>
+            <div class="article">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <img src="images/article1.jpg" class="img-fluid" alt="">
+                        <h5 class="mt-2"><a href="https://nuum.ru/clips/3613359-uspekh-https-t-me-seasonline4" class="article-names secondary-font">Успех</a></h5>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <img src="images/article2.jpg" class="img-fluid" alt="">
+                        <h5 class="mt-2"><a href="https://nuum.ru/clips/3613353-vdokhnovenie-https-t-me-seasonline4" class="article-names secondary-font">Вдохновение</a></h5>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <img src="images/article3.jpg" class="img-fluid" alt="">
+                        <h5 class="mt-2"><a href="https://nuum.ru/clips/3613361-sila-izmenit-mir-https-t-me-seasonline4" class="article-names secondary-font">Силы изменить мир</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="padding-medium">
+        <div class="container">
+            <h3 class="display-1 text-center mb-5 text-muted opacity-25 ">Следите за нашими обновлениями в почтовых рассылках!</h3>
+            <div class="offset-lg-3 col-lg-6">
+                <form>
+                    <div class="input-group">
+                        <input type="email" class="form-control rounded-0 border-black"
+                            placeholder="Write your email address here...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-dark rounded-0 px-5" type="submit">Подписаться</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="bg-black text-white">
+        <div class="container padding-medium">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="logo"><img src="images/Logo.jpg" width="100px" height="100px" alt="logo"></div>
+                </div>
+                <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li class="nav-item mb-2">
+                                <a class="nav-link nav-link-ltr" href="">О нас</a>
+                            </li>
+                            <li class="nav-item mb-2 ">
+                                <a class="nav-link nav-link-ltr" href="https://vk.com/seasonline4">Магазин</a>
+                            <li class="nav-item mb-2">
+                                <a class="nav-link nav-link-ltr" href="https://vk.link/seasonline4">Распродажа</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a class="nav-link nav-link-ltr" href="https://nuum.ru/channel/seasonline4">Статьи</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://vk.link/seasonline4">Возврат</a></li>
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://vk.link/seasonline4">Доставка</a></li>
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://vk.link/seasonline4">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://vk.com/seasonline4">Вконтакте</a></li>
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://t.me/seasonline4">Telegram</a></li>
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://nuum.ru/channel/seasonline4">NUUM</a></li>
+                            <li class="nav-item mb-2"><a class="nav-link nav-link-ltr" href="https://vk.link/seasonline4">Вебсайт для покупок</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                    У вас есть вопросы?<br>
+                    <a href="mailto:mchlsmirnoff@gmail" class="text-decoration-underline text-white">mchlsmirnoff@gmail.com</a> <br>
+                    Если у вас остались вопросы, можете позвонить в поддержку: <br>
+                    +7 967 564 30 27
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright text-center">
+            <p class="m-0 pb-3">© 2024 4 Seasons. Все права защищены <a href="https://t.me/seasonline4"
+                    target="_blank" class="text-decoration-underline text-white">4 Seasons</a></p>
+        </div>
+    </section>
+
+    <!-- Video Popup -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><svg class="bi"
+                            width="40" height="40">
+                            <use xlink:href="#close-sharp"></use>
+                        </svg></button>
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
